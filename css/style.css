@@ -1,0 +1,810 @@
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------*********************----------------------------*/
+
+/* -------------- Index Page -------------------- */ 
+
+
+/*------------- Navbar ------------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	#nav-bar #logo-img 
+	{
+	  padding-left: 0px;
+	  width: 210px;
+	  height: 70px;
+	}
+}
+
+.navbar-brand img
+{
+	height: 80px;
+	padding-left: 30px;
+
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: #32CD32!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+/* --------- Slider ---------  */
+
+#slider
+{
+	width: 100%;
+	z-index: 20;
+}
+
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);                    
+	bottom: initial!important;   				/* This will display the caption in center */
+}
+
+.carousel-caption h5
+{
+	color: white;
+	font-size: 42px;
+	align-items: center;	
+}
+
+
+
+/* ------------About Us ------------- */
+
+.about
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#about
+{
+	
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	
+}
+
+#about h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 130px;
+	margin: 2px auto 25px;	
+}
+
+
+
+/* ----- Divider ----- */
+.divider
+{
+	padding: 30px;
+}
+
+
+
+
+/*------------ Our Products------------ */
+
+#our_products
+{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+#our_products h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 180px;
+	margin: 2px auto 25px;
+}
+
+
+
+#opRow a h4:hover
+{
+	color: #32CD32!important;
+}
+
+.caption
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+#prod_disp_box
+{
+	transform: translate(0px);
+    transition: 0.4s all;
+}
+
+#prod_disp_box:hover
+{
+	box-shadow: 4px 2px 4px 2px #c5c2c2;
+    transform: translateY(5px);
+}
+
+/* ---------------------------------------------------------- */
+
+
+
+
+/* ------------- Our Clients ------------ */
+
+#our-clients
+{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+#our-clients h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 145px;
+	margin: 2px auto 25px;	
+}
+
+
+h2 
+{
+	text-align: center;
+	font-size: 3.5rem;
+	margin-bottom:3rem;
+} 
+
+
+/* Slider */ 
+
+.slick-slide 
+{
+	margin: 0px 10px;
+} 
+
+.slick-slide img 
+{
+	width: 100%;
+}
+
+
+
+/* ------Scroll to Top Button----- */
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+.gotop-btn i
+{
+	position: fixed;
+	width: 38px;
+	height: 38px;
+	background: #888585;
+	bottom: 23px;
+	right: 23px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #32CD32;
+	font-size: 20px;
+	border-radius: 30px;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .3s ease-in-out;
+}
+
+.gotop-btn i:hover
+{
+	background: white;
+	transition: .5s;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+	.gotop-btn i
+	{
+		font-size: 13px;
+		height: 31px;
+		width: 31px;
+		border-radius: 23px;
+		line-height: 30px;
+	}
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+/* ----- Footer ------*/
+
+/* Footer has inline CSS  */
+
+
+
+
+
+
+/* ------------------------------ ********************************* ------------------------------- */
+
+
+
+
+/* ------------- Gallery Page 1 ------------- */
+
+
+/* ----- Row1 -----*/
+
+#products_conveyors h2
+{
+	padding-bottom: 10px ;
+}
+
+/* ----- Row2 -----*/
+
+#products_bagging 
+{
+	padding-top: 50px;
+}
+
+#products_bagging h2
+{
+	padding-bottom: 10px ;
+}
+
+
+
+/* ------------------------------ ********************************* ------------------------------- */
+
+
+/* ---------- Contact Us Page ---------- */
+
+#contact
+{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	
+}
+
+#contact h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.col-md-12
+{
+	padding-top: 30px;                        /* This will add some padding from top to first input field. */
+}
+
+.contact-form .send_msg_btn
+{
+	background-color: #4CAF50;
+}
+
+
+
+
+/*---------------------------------------- ************************** ----------------------------------------*/
+
+
+/*-------------- Our Products Page (products2.html)  ---------------*/
+
+
+#title1 h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 3px;
+	width: 140px;
+	margin: 20px auto 5px;
+}
+
+#title2 h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 3px;
+	width: 230px;
+	margin: 20px auto 5px;
+}
+
+
+#p_img
+{
+	height: 50px;
+	width: 110px;
+}
+
+
+#description
+{
+	height:220px;
+	width:600px;
+	border:1px solid rgb(206, 204, 204);font:16px/26px Georgia, Garamond, Serif;
+	overflow:auto;
+}
+
+ #display2
+{
+	/*  background-image: linear-gradient(rgba(245, 244, 244, 0.8),rgba(255, 255, 255, 0.8));  */
+}
+
+
+
+/*---------------------------------------- ************************** ----------------------------------------*/
+
+
+/*-------------- Gallery Page 2 (new) ---------------*/
+
+/*
+#gallery
+{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+#gallery .thumnail
+{
+	height: 150px;
+	width: 150px;
+}
+*/
+
+
+
+/*---------------------------------------- ************************** ----------------------------------------*/
+
+
+/*-------------- Gallery Page 3 [gallery3.html] (new) ---------------*/
+
+
+#gallery3
+{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#gallery3 h2
+{
+	text-align: center;
+	color: rgb(66, 168, 66);
+	margin: 30px 0 50px;
+}
+
+#gallery3 h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 3px;
+	width: 160px;
+	margin: 20px auto 5px;
+}
+
+#gallery3 .gal3
+{
+	margin: 10px 50px;
+
+}
+
+.gal3 img
+{
+	height: 300px; 
+	width: 350px; 
+	padding: 20px;
+	/*  filter: grayscale(); */  /* ------> This will make thumbnail images Black & White  */
+	transition: 1s;
+}
+
+.gal3 img:hover
+{
+	transform: scale(1.1);
+	/*  filter: grayscale(0); */  /* -------> Thi will make images colored on hover */
+}
+
+.gal3 .gal_row_2
+{
+	margin-top: 35px;
+}
+
+
+
+
+/*
+#gallery3 .gal_row_2
+{
+	margin-top: 40px;
+}
+
+#gallery3 .gal_row_3
+{
+	margin-top: 40px;
+}
+
+#gallery3 .gal_row_4
+{
+	margin-top: 40px;
+}
+*/
+
+
+
+
+
+/* ---------------------------Products_new page (products_new.html)-------------------- */
+
+/* ------------------------ */
+
+
+
+#prod_disp
+{
+	padding-top: 35px;
+}
+
+#prod_disp #ctg-unloading h5, #ctg-loading h5, #ctg-conveying h5, #ctg-process-equipments h5, #ctg-specialized-equipments h5
+{
+	text-decoration: underline;
+}
+
+#prod_disp #ctg-conveying h5
+{
+	text-decoration: underline;
+}
+
+
+
+
+@media only screen and (max-width: 600px) 
+{
+	#ctg-unloading
+	{
+		padding-top: 25px;
+	}
+}
+
+
+#ctg-unloading h3::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 230px;
+	margin: 4px auto 25px;
+}
+
+
+#ctg-loading h3::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 205px;
+	margin: 4px auto 25px;
+}
+
+
+#ctg-conveying h3::after
+{
+	content: '';
+	background: #6e6d6d;
+	display: block;
+	height: 2px;
+	width: 230px;
+	margin: 4px auto 25px;
+}
+
+#ctg-process-equipments h3::after
+{
+	content: '';
+	background: #6e6d6d;
+	display: block;
+	height: 2px;
+	width: 280px;
+	margin: 4px auto 25px;
+}
+
+#ctg-specialized-equipments h3::after
+{
+	content: '';
+	background: #6e6d6d;
+	display: block;
+	height: 2px;
+	width: 285px;
+	margin: 4px auto 25px;
+}
+
+#more 
+{
+	display: none;
+}
+
+
+.dropdown
+{
+	position: fixed;       /* CSS for making category dropdown move with scroller. */
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.dropdown                                  /* Media query for making dropdown not move with scroller in mobile view. */
+	{
+		position: relative;
+		padding-bottom: 30px;
+	}
+}
+
+
+.list-group
+{
+	position: fixed;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.list-group
+	{
+		position: relative;
+	}
+}
+
+
+
+/*
+#prod_info
+{
+	
+}
+*/
+
+.more
+{
+	display: none;
+}
+
+.post
+{
+	color: white;
+	text-align: justify;
+}
+
+.post:not(:last-child)
+{
+	margin-bottom: 25px;
+}
+
+#prod_box
+{
+	transform: translate(0px);
+    transition: 0.4s all;
+}
+
+#prod_box:hover
+{
+	box-shadow: 4px 2px 4px 2px rgb(202, 214, 219);
+    transform: translateY(5px);
+}
+
+
+
+
+
+/* ------------------Error Page---------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  overflow:hidden;
+  background-color: #f4f6ff;
+}
+
+.container{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left:6vmin;
+  text-align: center;
+}
+
+.cog-wheel1, .cog-wheel2{
+  transform:scale(0.7);
+}
+
+.cog1, .cog2{
+  width:40vmin;
+  height:40vmin;
+  border-radius:50%;
+  border:6vmin solid #f3c623;
+  position: relative;
+}
+
+
+.cog2{
+  border:6vmin solid #4f8a8b;
+}
+
+.top, .down, .left, .right, .left-top, .left-down, .right-top, .right-down{
+  width:10vmin;
+  height:10vmin;
+  background-color: #f3c623;
+  position: absolute;
+}
+
+.cog2 .top,.cog2  .down,.cog2  .left,.cog2  .right,.cog2  .left-top,.cog2  .left-down,.cog2  .right-top,.cog2  .right-down{
+  background-color: #4f8a8b;
+}
+
+.top{
+  top:-14vmin;
+  left:9vmin;
+}
+
+.down{
+  bottom:-14vmin;
+  left:9vmin;
+}
+
+.left{
+  left:-14vmin;
+  top:9vmin;
+}
+
+.right{
+  right:-14vmin;
+  top:9vmin;
+}
+
+.left-top{
+  transform:rotateZ(-45deg);
+  left:-8vmin;
+  top:-8vmin;
+}
+
+.left-down{
+  transform:rotateZ(45deg);
+  left:-8vmin;
+  top:25vmin;
+}
+
+.right-top{
+  transform:rotateZ(45deg);
+  right:-8vmin;
+  top:-8vmin;
+}
+
+.right-down{
+  transform:rotateZ(-45deg);
+  right:-8vmin;
+  top:25vmin;
+}
+
+.cog2{
+  position: relative;
+  left:-10.2vmin;
+  bottom:10vmin;
+}
+
+h1{
+  color:#142833;
+}
+
+.first-four{
+  position: relative;
+  left:6vmin;
+  font-size:40vmin;
+}
+
+.second-four{
+  position: relative;
+  right:18vmin;
+  z-index: -1;
+  font-size:40vmin;
+}
+
+.wrong-para{
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom:15vmin;
+  padding:3vmin 12vmin 3vmin 3vmin;
+  font-weight:600;
+  color:#092532;
+}
+

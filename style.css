@@ -1,0 +1,435 @@
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------*********************----------------------------*/
+
+/* -------------- Index Page -------------------- */ 
+
+
+/*------------- Navbar ------------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	#nav-bar #logo-img 
+	{
+	  padding-left: 0px;
+	  width: 210px;
+	  height: 70px;
+	}
+}
+
+.navbar-brand img
+{
+	height: 80px;
+	padding-left: 30px;
+
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: #32CD32!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+	#nav-bar #index-logo-img
+	{
+	  padding-left: 0px;
+	  width: 210px;
+	  height: 70px;
+	}
+
+	
+}
+
+
+
+
+
+
+/* --------- Slider ---------  */
+
+#slider
+{
+	width: 100%;
+	z-index: 20;
+}
+
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);                    
+	bottom: initial!important;   				/* This will display the caption in center */
+}
+
+.carousel-caption h5
+{
+	color: white;
+	font-size: 42px;
+	align-items: center;	
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.carousel-inner h5
+	{
+		font-size: 20px;
+		font-style: bold;
+		
+	}
+}
+
+
+
+/* ------------About Us ------------- */
+
+.about
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#about
+{
+	
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	
+}
+
+#about h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 130px;
+	margin: 2px auto 25px;	
+}
+
+
+
+/* ----- Divider ----- */
+.divider
+{
+	padding: 30px;
+}
+
+
+
+
+/*------------ Our Products------------ */
+
+#our_products
+{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),#c5c2c2);
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+#our_products h2::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 180px;
+	margin: 2px auto 25px;
+}
+
+
+
+#opRow a h4:hover
+{
+	color: #32CD32!important;
+}
+
+.caption
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+#prod_disp_box
+{
+	transform: translate(0px);
+    transition: 0.4s all;
+}
+
+#prod_disp_box:hover
+{
+	box-shadow: 4px 2px 4px 2px #c5c2c2;
+    transform: translateY(5px);
+}
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* ------Scroll to Top Button----- */
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+.gotop-btn i
+{
+	position: fixed;
+	width: 38px;
+	height: 38px;
+	background: #888585;
+	bottom: 23px;
+	right: 23px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #32CD32;
+	font-size: 20px;
+	border-radius: 30px;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .3s ease-in-out;
+}
+
+.gotop-btn i:hover
+{
+	background: white;
+	transition: .5s;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+	.gotop-btn i
+	{
+		font-size: 13px;
+		height: 31px;
+		width: 31px;
+		border-radius: 23px;
+		line-height: 30px;
+	}
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+/* ----- Footer ------*/
+
+#useful_links a
+{
+	text-decoration: none;
+}
+
+#useful_links a:hover
+{
+	color: #32CD32!important;
+}
+
+
+
+
+/*---------------------------------------- ************************** ----------------------------------------*/
+
+
+
+/* --------------------------- VTP | Products (products.html)-------------------- */
+
+/* ------------------------ */
+
+
+
+#prod_disp
+{
+	padding-top: 35px;
+}
+
+#prod_disp #ctg-unloading h5, #ctg-loading h5, #ctg-conveying h5, #ctg-process-equipments h5, #ctg-specialized-equipments h5
+{
+	text-decoration: underline;
+}
+
+#prod_disp #ctg-conveying h5
+{
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+	#ctg-unloading
+	{
+		padding-top: 25px;
+	}
+}
+
+
+#ctg-unloading h3::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 283px;
+	margin: 4px auto 25px;
+}
+
+
+#ctg-loading h3::after
+{
+	content: '';
+	background: #5f5e5e;
+	display: block;
+	height: 2px;
+	width: 230px;
+	margin: 4px auto 25px;
+}
+
+
+#ctg-conveying h3::after
+{
+	content: '';
+	background: #6e6d6d;
+	display: block;
+	height: 2px;
+	width: 230px;
+	margin: 4px auto 25px;
+}
+
+#ctg-process-equipments h3::after
+{
+	content: '';
+	background: #6e6d6d;
+	display: block;
+	height: 2px;
+	width: 270px;
+	margin: 4px auto 25px;
+}
+
+#ctg-specialized-equipments h3::after
+{
+	content: '';
+	background: #6e6d6d;
+	display: block;
+	height: 2px;
+	width: 275px;
+	margin: 4px auto 25px;
+}
+
+#more 
+{
+	display: none;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+	.dropdown                                  /* Media query for making dropdown not move with scroller in mobile view. */
+	{
+		position: relative;
+		padding-bottom: 30px;
+	}
+}
+
+
+.list-group
+{
+	position: fixed;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.list-group
+	{
+		position: relative;
+	}
+}
+
+
+
+/*
+#prod_info
+{
+	
+}
+*/
+
+.more
+{
+	display: none;
+}
+
+.post
+{
+	color: white;
+	text-align: justify;
+}
+
+.post:not(:last-child)
+{
+	margin-bottom: 25px;
+}
+
+#prod_box
+{
+	transform: translate(0px);
+    transition: 0.4s all;
+}
+
+#prod_box:hover
+{
+	box-shadow: 4px 2px 4px 2px rgb(202, 214, 219);
+    transform: translateY(5px);
+}
+
+
